@@ -79,7 +79,7 @@ const DEFAULT_VALUE: Value = {
 };
 
 const DEFAULT_STATE: State = {
-  status: 'STATUS_BEFORE_INIT',
+  status: 'BEFORE_INIT',
   value: DEFAULT_VALUE
 };
 
