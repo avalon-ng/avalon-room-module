@@ -1,8 +1,8 @@
-import { DEFAULT_VALUE } from './external/fsm-avalon-ts/config';
+import { DEFAULT_STATE } from './external/fsm-avalon-ts/config';
 import { RoomModuleType, RoomReducerModule } from 'room-module-types';
 import { getFSM } from './external/fsm-avalon-ts';
 
-const defaultState = { ...DEFAULT_VALUE };
+const defaultState = { ...DEFAULT_STATE };
 const dependencies = [RoomModuleType.Players];
 const { reducer, validate } = getFSM();
 const validateForRoomModule = (state: any, action: any) => {
