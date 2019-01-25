@@ -1,6 +1,6 @@
 {
   "name": "avalon-room-module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Avalon room module for Rooms",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
