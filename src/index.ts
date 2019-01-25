@@ -9,13 +9,11 @@ const validateForRoomModule = (state: any, action: any) => {
   validate(state, action);
   return null;
 };
-const transformState = () => ({});
 const roomModule: RoomReducerModule = {
   defaultState,
   dependencies,
   reducer,
-  validate: validateForRoomModule,
-  transformState,
+  validate: validateForRoomModule
 };
 
 export default roomModule
