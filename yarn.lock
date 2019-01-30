@@ -2107,6 +2107,20 @@ fsevents@^1.2.2:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
+fsm-avalon-ts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fsm-avalon-ts/-/fsm-avalon-ts-1.0.1.tgz#8d24e5e7f10feb63bb82b52694fd34e9f54db50c"
+  integrity sha512-eYVXl9DQGZhpaNRuddb5/9KdmC0Mdt1SiZyjSNvhVoGr4A+NMzh/gnoU/7f7kzBt+vEKH0LB4KbebJu4xy5qDg==
+  dependencies:
+    fsm-reducer-ts "^1.0.0"
+
+fsm-reducer-ts@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fsm-reducer-ts/-/fsm-reducer-ts-1.0.0.tgz#3ee40f3dccd73515b0f52b38dda2f579c9f49b23"
+  integrity sha512-jwyh4WPSTOc4r4aFRmklOKaqofTDcztJ5r0KtuxwVQx4v83rRPWvCn2aoV+AhD5JQh5rf/2p+dEnMO+2yO4XXw==
+  dependencies:
+    sha.js "^2.4.11"
+
 function-bind@^1.0.2, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -4361,6 +4375,11 @@ rimraf@^2.2.8, rimraf@^2.6.1, rimraf@^2.6.2:
   dependencies:
     glob "^7.1.3"
 
+room-module-types@^1.5.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/room-module-types/-/room-module-types-1.6.0.tgz#81520c9f0150c9fdfdb815f14ba49463e3758c51"
+  integrity sha512-f82j4jLPYO4/ZEHV0/gcQAg8aI1VXAupAX5hyMoy+YqIRGencvD8xDNqG37iizmnDSWtYPkE3sZGwYjtTjVT0g==
+
 run-applescript@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/run-applescript/-/run-applescript-3.2.0.tgz#73fb34ce85d3de8076d511ea767c30d4fdfc918b"
@@ -4431,6 +4450,14 @@ set-value@^2.0.0:
     is-extendable "^0.1.1"
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
+
+sha.js@^2.4.11:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
+  integrity sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==
+  dependencies:
+    inherits "^2.0.1"
+    safe-buffer "^5.0.1"
 
 shebang-command@^1.2.0:
   version "1.2.0"
